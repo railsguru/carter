@@ -15,7 +15,7 @@ end
 
 group :test do 
   gem "debugger"
-  gem "rails", "~> 4.0.0"
+  gem "rails", ">= 4.0.0"
   gem "shoulda-matchers"
   gem "factory_girl", "3.6.2"
   gem "state_machine"
